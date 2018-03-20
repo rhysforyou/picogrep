@@ -1,6 +1,6 @@
 use std::env;
 
-/// A struct which store's minigrep's configuration
+/// A struct which store's picogrep's configuration
 #[derive(Debug)]
 pub struct Config {
     /// The plaintext query or regex pattern to search for
@@ -15,7 +15,7 @@ impl Config {
     /// # Examples
     ///
     /// ```
-    /// use minigrep::Config;
+    /// use picogrep::Config;
     ///
     /// match Config::new(std::env::args()) {
     ///     Ok(config) => println!("{:?}", config),

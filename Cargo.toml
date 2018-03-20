@@ -1,7 +1,9 @@
 [package]
-name = "minigrep"
+name = "picogrep"
+description = "A very, very simple grep-like"
 version = "0.1.0"
 authors = ["Rhys Powell <rhys@rpowell.me>"]
+license = "MIT"
 
 [dependencies]
 regex = "0.2"
