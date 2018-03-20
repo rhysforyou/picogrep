@@ -4,6 +4,8 @@ description = "A very, very simple grep-like"
 version = "0.1.0"
 authors = ["Rhys Powell <rhys@rpowell.me>"]
 license = "MIT"
+repository = "https://github.com/rhysforyou/picogrep.git"
+homepage = "https://github.com/rhysforyou/picogrep"
 
 [dependencies]
 regex = "0.2"
